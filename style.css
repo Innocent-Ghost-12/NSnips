@@ -32,15 +32,27 @@ main {
     overflow: hidden;
     padding: 1% 0;
     text-align: center;
-    height: 10%;
+    /* height: 10%; */
     line-height: 3%;
   }
   .header h1 {
     font-size: 30px;
+    margin: 1% 0;
+    position: relative;
   }
-  
   .content {
     height: 10vh;
+    z-index: 1;
+  }
+  .btn-submission{
+    /* background-color: #1E3839; */
+    background-color: #343a40;
+    color: #fff;
+    font-size: 25px;
+  }
+  .btn-submission:hover{
+      color: #1D7775;
+      box-shadow: 5px 9px 18px black;
   }
   .fut{
     font-size: 1.2em;
